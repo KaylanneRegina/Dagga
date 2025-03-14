@@ -429,3 +429,57 @@ nav{
 .redes-sociais .icon{
     color: white;
 }
+
+
+@media (max-width: 748px) {
+    .frase-conteudo p{
+        width: 100%;
+    }
+
+    .div-frase{
+        flex-direction: column;
+    }
+    
+    .div-frase, .frase-conteudo, .btn-container {
+        padding: 0px 70px;
+    }
+
+    .div-header{
+        padding: 0px 50px;
+    }
+}
+
+@media (max-width: 478px) {
+    .div-frase{
+        margin-top: 30px;
+    }
+    .nav-link svg{
+        width: 30px;
+    }
+    .logotipo{
+        width: 140px;
+    }
+}
+
+@media (max-width: 420px) {
+    .div-frase, .frase-conteudo, .btn-container {
+        padding: 0px 34px;
+    }
+    .div-header {
+        padding: 0px 18px;
+    }
+    .frase{
+        font-size: 35px;
+    }
+    .frase-conteudo p {
+        font-size: 16px;
+    }
+    .btn-contato-home {
+        padding: 10px 10px;
+        border-radius: 9px;
+        font-size: 16px;
+    }
+    .btn-container {
+        margin-top: 54px;
+    }
+}
